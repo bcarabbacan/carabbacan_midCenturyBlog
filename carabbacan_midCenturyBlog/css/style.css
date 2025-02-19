@@ -1,0 +1,98 @@
+/* remember that style sheets cascade, so whatever is on the bottom will override whats on top. Don't have multiple statements for the same element. Organization and hierarchy are key, start with larger elements and work your way down.
+
+Do they best you can with this, talk with each other and help each other. Most colors and fonts are provided for you. Use adobe color to find the other colors from the sample image.*/
+* {
+    background-color: #cde3f1;
+    text-decoration: none;
+    
+}
+
+
+
+nav {
+    font-family:"josefin sans";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    
+    text-align:center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #047F8C;
+
+}
+.nav {
+    color:#047F8C;
+}
+h1 {
+    
+    text-align: center;
+    font-family: "josefin sans";
+    font-weight: 600;
+    font-size: 37px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: ;
+
+}
+.title {
+}
+
+
+h2 {
+    font-family: "Lato";
+    font-weight: 700px;
+    font-size: 22.5px;
+    }
+    
+h3 {
+    font-family: "josefin sans";
+    font-weight: 600;
+    font-size: 18px;
+    color: #047F8C;
+}
+p {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+li {
+    font-family: "josefin sans";
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+.aside {
+    max-width: 30%; 
+    max-height: 30%;
+}
+
+
+
+#professor {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-align:center;
+    background-color: #04ADBF;
+    color: #393f11;
+    text-decoration: none;
+    border-color: #04ADBF;
+    
+
+}
+#social {
+
+    text-align: center;
+}
+a:link, a:visited {
+    color: #393f11;
+}
+
+.nav {
+    color:#047F8C;
+   override-colors: #047F8C;
+
+}
